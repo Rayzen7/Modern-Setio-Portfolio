@@ -21,7 +21,7 @@ const Welcome = () => {
           <Typewriter options={typewriterOptions} />
         </div>
         <p className="font-[400] text-[15px] mt-3 mb-1">I'am a Full Stack Developer with experience in Website, and UI/UX Design. Enjoy on my website</p>
-        <a href=""><MagicButton
+        <a href="#about"><MagicButton
         title="Get Started"/></a>
       </div>
         <div data-aos="fade-up" data-aos-duration="700">
