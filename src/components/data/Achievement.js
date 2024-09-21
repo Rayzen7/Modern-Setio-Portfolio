@@ -20,7 +20,7 @@ export const achievement = [
     {
         id: 4,
         img: '/img/AWS.jpg',
-        title: '2nd Place Genetic UI/UX Design Competition',
-        desc: 'Genetic is a UI/UX Design competition held at Semarang University, the competition has the theme of technological innovation'
+        title: 'Finalist AWS Cloud Computing Competition',
+        desc: 'AWS Sagasitas is a Web Design competition held at AWS, the competition has the theme of innovation in technology'
     },
 ]
