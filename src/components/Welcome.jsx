@@ -6,7 +6,7 @@ import MagicButton from "./ui/MagicButton";
 
 const Welcome = () => {
     const typewriterOptions = {
-        strings: ["I'am Front-End Developer", "I'am Back-End Developer", "UI/UX Design"],
+        strings: ["I'am Front-End Developer", "I'am Back-End Developer", "I'am UI/UX Design"],
         autoStart: true,
         loop: true,
         delay: 100,
