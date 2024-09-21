@@ -31,3 +31,29 @@
     background: darkviolet; 
   }
   
+
+.list {
+  display: none;
+}
+
+br {
+  display: none;
+}
+
+.earth {
+  display: block;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .list {
+    display: block;
+  }
+
+  br {
+    display: block;
+  }
+
+  .earth {
+    display: none;
+  }
+}

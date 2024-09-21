@@ -22,18 +22,28 @@ export default {
         'blue-purple': 'linear-gradient(90deg, rgba(173,49,255,1) 0%, rgba(78,84,255,1) 100%)',
       },
       keyframes: {
+        'scroll-horizontal-icon': {
+          '0%': { transform: 'translateX(80%)' },
+          '100%': { transform: 'translateX(calc(-100% + 400px))' }, 
+        },
         'scroll-horizontal': {
           '0%': { transform: 'translateX(0%)' },
           '100%': { transform: 'translateX(-100%)' },
         },
-        'scroll-horizontal-icon': {
-          '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-42%)' },
+        'moveTop': {
+          from : { marginTop: '0', opacity: '100%'},
+          to : { marginTop: '-270px', opacity: '0%' }
+        },
+        'moveBottom': {
+          from : { marginTop: '-270px', opacity: '0%' },
+          to : { marginTop: '0', opacity: '100%' }
         },
       },
       animation: {
-        'scroll-horizontal-icon': 'scroll-horizontal-icon 40s linear infinite',
-        'scroll-horizontal': 'scroll-horizontal-icon 40s linear infinite',
+        'scroll-horizontal-icon': 'scroll-horizontal-icon 50s linear infinite',
+        'scroll-horizontal': 'scroll-horizontal 40s linear infinite',
+        'moveTop': 'moveTop 1s ease-in-out forwards',
+        'moveBottom': 'moveBottom 1s ease-in-out forwards',
       },
     },
   },
