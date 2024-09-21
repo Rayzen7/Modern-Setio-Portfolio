@@ -1,0 +1,33 @@
+.hover-navbar:hover {
+    text-shadow: 0px 0px 15px #ffffff;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.bar::-webkit-scrollbar {
+    display: none;
+}
+  
+.bar {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+
+
+.home::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+.home::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+.home::-webkit-scrollbar-thumb {
+    background: purple; 
+    border-radius: 10px;
+  }
+  
+.home::-webkit-scrollbar-thumb:hover {
+    background: darkviolet; 
+  }
+  
