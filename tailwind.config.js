@@ -23,7 +23,7 @@ export default {
       },
       keyframes: {
         'scroll-horizontal-icon': {
-          '0%': { transform: 'translateX(80%)' },
+          '0%': { transform: 'translateX(30%)' },
           '100%': { transform: 'translateX(calc(-100% + 400px))' }, 
         },
         'scroll-horizontal': {
