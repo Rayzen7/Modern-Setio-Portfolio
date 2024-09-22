@@ -40,7 +40,7 @@ export default {
         },
       },
       animation: {
-        'scroll-horizontal-icon': 'scroll-horizontal-icon 50s linear infinite',
+        'scroll-horizontal-icon': 'scroll-horizontal-icon 70s linear infinite',
         'scroll-horizontal': 'scroll-horizontal 40s linear infinite',
         'moveTop': 'moveTop 1s ease-in-out forwards',
         'moveBottom': 'moveBottom 1s ease-in-out forwards',
