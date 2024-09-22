@@ -31,7 +31,7 @@ const Timeline = () => {
                 <Circle className="absolute w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-xl left-1/2 transform -translate-x-1/2">
                     {index + 1}
                 </Circle>
-                <div className="w-1/2 text-left lg:pr-12 pr-0 pt-5" data-aos="fade-left" data-aos-duration="700">
+                <div className="w-1/2 text-left lg:pl-12 pl-0 pt-5" data-aos="fade-left" data-aos-duration="700">
                     <h2 className="lg:text-[17px] text-[15px] font-poppins font-[600] mt-2">{item.year}</h2>
                     <p className="lg:text-[18px] text-[14px] font-poppins font-[500]">{item.title}</p>
                     <p className="text-secondary pt-1 font-poppins lg:text-[14px] text-[12px]">{item.description}</p>
