@@ -25,11 +25,11 @@ export const Projects = [
     },
     {
         id: 4,
-        head: '/img/sticray.png',
-        title: 'Sticray Website',
-        desc: 'Sticray Website is a website that focuses on screen printing services for clothes and stickers.',
-        link: "https://sticray-user.vercel.app/",
-        category: 'Fullstack'
+        head: '/img/sumpah-pemuda.png',
+        title: 'Sumpah Pemuda Website',
+        desc: 'Youth Pledge is a historical educational website regarding the Youth Pledge event',
+        link: "https://sumpah-pemuda.vercel.app/",
+        category: 'Front-End'
     },
     {
         id: 5,
