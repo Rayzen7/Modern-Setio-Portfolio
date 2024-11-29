@@ -68,7 +68,7 @@ export const Projects = [
         head: '/img/fire-alarm.jpg',
         title: 'Fire Alarm (IoT)',
         desc: 'Fire alarm is an IoT project that detects smoke using an MQ-2 sensor and using Arduino',
-        link: "null",
+        link: "#",
         category: 'Internet of Things'
     },
 ];
