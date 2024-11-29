@@ -23,4 +23,16 @@ export const achievement = [
         title: 'Finalist AWS Cloud Computing Competition',
         desc: 'AWS Sagasitas is a Web Design competition held at AWS, the competition has the theme of innovation in technology'
     },
+    {
+        id: 5,
+        img: '/img/invention.jpg',
+        title: 'Favorite Champion of Web Design Invention',
+        desc: 'Invention is a Web Design competition organized by Udayana University, the competition raises the theme of innovation in the field of technology'
+    },
+    {
+        id: 6,
+        img: '/img/hackathon.jpg',
+        title: '3nd Place Kids Hackathon Web Design Competition',
+        desc: 'Kids Hackathon is a Web Design competition organized by Educourse, the competition raises the theme of innovation in the field of technology'
+    },
 ]

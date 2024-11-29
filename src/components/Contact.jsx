@@ -8,7 +8,7 @@ const Contact = () => {
     const name = e.target[0].value; 
     const message = e.target[1].value; 
     const encodedMessage = encodeURIComponent(`Name: ${name}\nMessage: ${message}`);
-    const whatsappURL = `https://wa.me/6281219538787?text=${encodedMessage}`;
+    const whatsappURL = `https://wa.me/6285147299050?text=${encodedMessage}`;
     window.open(whatsappURL, '_blank');
   };
 
