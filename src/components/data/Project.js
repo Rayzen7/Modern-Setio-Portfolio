@@ -63,4 +63,12 @@ export const Projects = [
         link: "https://www.figma.com/proto/Ru7rJnL33ErcjqZpBcjdFc/LIFE-SAVER?node-id=2-2&node-type=frame&t=s5949fe1wxvJcwwu-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2",
         category: 'UI/UX Design'
     },
+    {
+        id: 9,
+        head: '/img/fire-alarm.jpg',
+        title: 'Fire Alarm (IoT)',
+        desc: 'Fire alarm is an IoT project that detects smoke using an MQ-2 sensor and using Arduino',
+        link: "null",
+        category: 'Internet of Things'
+    },
 ];
