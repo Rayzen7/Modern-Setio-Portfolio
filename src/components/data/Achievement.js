@@ -27,7 +27,7 @@ export const achievement = [
         id: 5,
         img: '/img/invention.jpg',
         title: 'Favorite Champion of Web Design Invention',
-        desc: 'Invention is a Web Design competition organized by Udayana University, the competition raises the theme of innovation in the field of technology'
+        desc: 'Invention is a Web Design competition organized by Udayana University, the competition has the theme of innovation'
     },
     {
         id: 6,
